@@ -6,11 +6,14 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    height: 600px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--Darkcyan);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
     /* background-position: bottom 1px right 14px, top 3000px left 18px;
     background-repeat: no-repeat;
     background-image: url(/images/bg-pattern-top.svg);
